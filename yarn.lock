@@ -2543,14 +2543,14 @@
   resolved "https://registry.yarnpkg.com/@seald-io/binary-search-tree/-/binary-search-tree-1.0.2.tgz#9f0e5cec5e0acf97f1b495f2f6d3476ddb6a94ed"
   integrity sha512-+pYGvPFAk7wUR+ONMOlc6A+LUN4kOCFwyPLjyaeS7wVibADPHWYJNYsNtyIAwjF1AXQkuaXElnIc4XjKt55QZA==
 
-"@seald-io/nedb@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@seald-io/nedb/-/nedb-2.0.4.tgz#d3c0534889b81ba1dc43cbde8721312eee13c648"
-  integrity sha512-QMSMJemcCIVhbcwVg/oASV74Qudl6ex6c1U8IwckxIvFub1TwRQcchMva30qBUIrNGrLgKXM3c+lgwfdlGa55w==
+"@seald-io/nedb@^3.0.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@seald-io/nedb/-/nedb-3.1.0.tgz#6105345a18596f6f9d69f46d7f572efdae32af8e"
+  integrity sha512-5G0hCQGJjOelOutvW1l4VD581XMhTPxpj1BUaCWTEM2MPXR9TzIr0MKMnEjnTA5nEKfujPyvVW7iF3etm1/gKQ==
   dependencies:
     "@seald-io/binary-search-tree" "^1.0.2"
-    async "0.2.10"
     localforage "^1.9.0"
+    util "^0.12.4"
 
 "@sideway/address@^4.1.0":
   version "4.1.1"
@@ -4129,11 +4129,6 @@ async-validator@^3.0.3:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/async-validator/-/async-validator-3.5.1.tgz"
   integrity sha512-DDmKA7sdSAJtTVeNZHrnr2yojfFaoeW8MfQN8CeuXg8DDQHTqKk9Fdv38dSvnesHoO8MUwMI2HphOeSyIF+wmQ==
-
-async@0.2.10:
-  version "0.2.10"
-  resolved "https://registry.yarnpkg.com/async/-/async-0.2.10.tgz"
-  integrity sha1-trvgsGdLnXGXCMo43owjfLUmw9E=
 
 async@0.9.x:
   version "0.9.2"
@@ -11563,12 +11558,12 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-nedb-promises@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/nedb-promises/-/nedb-promises-5.0.1.tgz#a32ab9423e1780fcd5c0fdde7ddbf8af5477bda7"
-  integrity sha512-dIE0C3crV9yeiXGWnseW4v4NIXHdcWjrmQHQuKAq2jJeqNGGMrLWJGmunPoapu5CO5btTY76hDt5FwsDRGioRw==
+nedb-promises@6.1.0:
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/nedb-promises/-/nedb-promises-6.1.0.tgz#bd5599c4ea9d2bc15ce877bd38976bb4ce9070a3"
+  integrity sha512-lpYE3sR/trfbHQCaUfaful7OV+lOfqJooJ9lLZtcsbcLSCxl3/AJM4wrsW3uifDhW49Xg5XkEgwZ/K4szO8Hxw==
   dependencies:
-    "@seald-io/nedb" "^2.0.4"
+    "@seald-io/nedb" "^3.0.0"
 
 negotiator@0.6.2:
   version "0.6.2"
@@ -17060,6 +17055,17 @@ util@^0.12.0:
     is-generator-function "^1.0.7"
     is-typed-array "^1.1.3"
     safe-buffer "^5.1.2"
+    which-typed-array "^1.1.2"
+
+util@^0.12.4:
+  version "0.12.5"
+  resolved "https://registry.yarnpkg.com/util/-/util-0.12.5.tgz#5f17a6059b73db61a875668781a1c2b136bd6fbc"
+  integrity sha512-kZf/K6hEIrWHI6XqOFUiiMa+79wE/D8Q+NCNAWclkyg3b4d2k7s0QGepNjiABc+aR3N1PAyHL7p6UcLY6LmrnA==
+  dependencies:
+    inherits "^2.0.3"
+    is-arguments "^1.0.4"
+    is-generator-function "^1.0.7"
+    is-typed-array "^1.1.3"
     which-typed-array "^1.1.2"
 
 utila@~0.4:

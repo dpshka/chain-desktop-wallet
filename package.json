@@ -44,7 +44,7 @@
     "lodash": "4.17.21",
     "long": "4.0.0",
     "moment": "2.29.1",
-    "nedb-promises": "5.0.1",
+    "nedb-promises": "6.1.0",
     "node-localstorage": "2.1.6",
     "numeral": "2.0.6",
     "qrcode.react": "1.0.1",
