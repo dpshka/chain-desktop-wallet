@@ -18,7 +18,7 @@
     "zondax"
   ],
   "dependencies": {
-    "@zondax/zemu": "leejw51crypto/zemu#master",
+    "@zondax/zemu": "0.45.0",
     "bech32": "^2.0.0",
     "ledger-cosmos-js": "^2.1.8",
     "typescript": "^4.1.4",
